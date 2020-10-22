@@ -1,0 +1,107 @@
+/* ---------------------------------------------------------------- */
+/* General */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------------------------------------------------------------- */
+/* Container */
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+main.container {
+    max-width: 880px;
+    height: 100vh;
+}
+
+header > .container, footer > .container {
+    max-width: 1100px;
+}
+
+/* ---------------------------------------------------------------- */
+/* Header */
+
+header {
+    background-color: greenyellow;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menu-container {
+    width: 50%;
+    float: right;
+    height: 70px;
+}
+
+.menu-container > span {
+    width: 20%;
+    line-height: 70px;
+    margin: 0 12px;
+}
+
+/* ---------------------------------------------------------------- */
+/* Footer */
+
+footer {
+    background-color: darkgray;
+}
+
+/* ---------------------------------------------------------------- */
+/* Main */
+
+main {
+    padding-top: 40px;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* ------------------------------------------------------ */
+/* Box */
+
+.box {
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.box.inner {
+    height: 80px;
+
+    /*  How to center text vertically and horizontally
+        Found on StackOverflow: https://stackoverflow.com/a/5703632
+    */
+    line-height: 80px;
+}
+
+/* ------------------------------------------------------ */
+/* Background */
+
+.background-grey {
+    background-color: lightgray;
+}
+
+.background-green {
+    background-color: green;
+}
+
+.background-white {
+    background-color: white;
+}
+
+/* ------------------------------------------------------ */
+/* Border */
+
+.border-dashed {
+    border: dashed 2px gray;
+}
